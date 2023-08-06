@@ -15,5 +15,5 @@ if (randomNo1 > randomNo2) {
 } else if (randomNo1 < randomNo2) {
 	document.querySelector("#player").innerHTML=("🚩Player2 Wins");
 } else {
-	document.querySelector("#player").innerHTML("Draw !!");
+	document.querySelector("#player").innerHTML=("Draw !!");
 }
